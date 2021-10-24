@@ -15,11 +15,11 @@ module.exports = {
 const embed = new MessageEmbed() 
 .setTitle("**__Help__ **") 
 .setFooter(message.author.username)
-.setImage("https://cdn.discordapp.com/attachments/808760849867079721/838228786742820904/standard_1") 
-.setDescription(`**[  SUPPORT  ](https://discord.gg/b3dmQYX5PH)**  **[   INVITE  ]()**  **[  VOTE  ](https://top.gg/bot/769330211157835784/vote)**`)
-.addField("<:sparkles:892044984960827472> | Prefix ","`*help` - `*play`")
-.addField("<a:emoji_1:849776457122185277> | Other ","`*help` - `invite` - `ping`") 
-.addField("<a:emoji_1:849776441126158337> | Music ","\`play\` - `playskip` - `autoplay` - `playlist` - `pause`  `resume` - `volume` - `stop` - `skip` - `seek` - `shuffle`  `loop` - `queue` - `clearqueue` - `jump` - `nowplaying`  `radio` - `search` - `grab` - `status`") 
+.setImage("https://share.creavite.co/4tQont7IqtvSAdv1.gif") 
+.setDescription(`**[  SUPPORT  ](https://discord.gg/63Cf3a6aEx)**  **[   INVITE  ](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot)**  **[  VOTE  ]()**`)
+.addField("<:image_20211025_010117> | Prefix ","`help` - `play`")
+.addField("<:873254118548967464> | Other ","`help` - `invite` - `ping`") 
+.addField("<:rubbet> | Music ","\`play\` - `playskip` - `autoplay` - `playlist` - `pause`  `resume` - `volume` - `stop` - `skip` - `seek` - `shuffle`  `loop` - `queue` - `clearqueue` - `jump` - `nowplaying`  `radio` - `search` - `grab` - `status`") 
 .setColor("RANDOM")
 
 return message.channel.send(embed); 
