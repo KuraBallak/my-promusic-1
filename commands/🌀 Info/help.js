@@ -17,9 +17,9 @@ const embed = new MessageEmbed()
 .setFooter(message.author.username)
 .setImage("https://share.creavite.co/4tQont7IqtvSAdv1.gif") 
 .setDescription(`**[  SUPPORT  ](https://discord.gg/63Cf3a6aEx)**  **[   INVITE  ](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot)**  **[  VOTE  ]()**`)
-.addField("<🔓> | Prefix ","`help` - `play`")
-.addField("<➕> | Other ","`help` - `invite` - `ping`") 
-.addField("<🎧> | Music ","\`play\` - `playskip` - `autoplay` - `playlist` - `pause`  `resume` - `volume` - `stop` - `skip` - `seek` - `shuffle`  `loop` - `queue` - `clearqueue` - `jump` - `nowplaying`  `radio` - `search` - `grab` - `status`") 
+.addField("🔓 | Prefix ","`help` - `play`")
+.addField("➕ | Other ","`help` - `invite` - `ping`") 
+.addField("🎧 | Music ","\`play\` - `playskip` - `autoplay` - `playlist` - `pause`  `resume` - `volume` - `stop` - `skip` - `seek` - `shuffle`  `loop` - `queue` - `clearqueue` - `jump` - `nowplaying`  `radio` - `search` - `grab` - `status`") 
 .setColor("RANDOM")
 
 return message.channel.send(embed); 
