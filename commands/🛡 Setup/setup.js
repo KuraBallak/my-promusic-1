@@ -15,7 +15,7 @@ module.exports = {
      */
     run: async (client, message, args) => {
         // code here
-        message.guild.channels.create("Music Bot✨ - Requests", {
+        message.guild.channels.create("Pro Music✨ - Requests", {
             type: 'category',
             permissionOverwrites: [{
                 id: message.guild.id,
@@ -42,7 +42,7 @@ module.exports = {
                 message.guild.channels.create(`🎵｜Just Music bot`, {
                     type: 'text', // text channel
                     rateLimitPerUser: 6, //set chat delay
-                    topic: `*play music Thanks Setup Guys Me Invite Server (Music Bot✨)!`,
+                    topic: `*play music Thanks Setup Guys Me Invite Server (Pro Music ✨)!`,
                     parent: channel1.id,
                     permissionOverwrites: [{
                         id: message.guild.id,
@@ -60,9 +60,9 @@ module.exports = {
                         .setColor(config.colors.yes)
                         .setThumbnail(client.user.displayAvatarURL()) 
                         .setTitle(" Music Bot - Best Free Music Bot of 2021")
-                        .setDescription(`.\n[Invite  Music Bot✨](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot) | [Support](https://discord.gg/b3dmQYX5PH) | [Top.gg](https://top.gg/bot/769330211157835784/vote)`)
-                        .setImage('https://media.discordapp.net/attachments/837692611590094868/889686815022403724/20210921_043700.jpg')
-                        .setFooter("Prefix = *setup 》*help ")
+                        .setDescription(`.\n[Invite  Pro Music✨](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot) | [Support](https://discord.gg/ZQhTvGhaH8) | [Top.gg](coming soon)`)
+                        .setImage('https://share.creavite.co/4tQont7IqtvSAdv1.gif')
+                        .setFooter("Prefix = setup 》help ")
 
                     //send a temp message
                     channel3.send(new MessageEmbed().setColor(config.colors.yes).setDescription("Setting Up..")).then(msg => {
