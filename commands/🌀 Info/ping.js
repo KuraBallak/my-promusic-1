@@ -16,13 +16,13 @@ module.exports = {
         message.channel.send(
             new MessageEmbed()
                 .setColor(config.colors.yes)
-                .setFooter("Music Bot✨")
+                .setFooter("Pro Music ✨")
                 .setTitle(`${'🏓'} Pinging....`)
         ).then(msg => {
             msg.edit(
                 new MessageEmbed()
                 .setColor(config.colors.yes)
-                .setFooter("ping Music Bot✨")
+                .setFooter("ping Pro Music ✨")
                 .setThumbnail(client.user.displayAvatarURL())
                 .setTitle(`${"🏓"} Ping: \`${Math.round(Date.now() - message.createdTimestamp)}ms\`\n\n${"🎈"} Api Latency: \`${Math.round(client.ws.ping)}ms\``)
             )
