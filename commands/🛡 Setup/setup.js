@@ -60,7 +60,7 @@ module.exports = {
                         .setColor(config.colors.yes)
                         .setThumbnail(client.user.displayAvatarURL()) 
                         .setTitle(" Music Bot - Best Free Music Bot of 2021")
-                        .setDescription(`.\n[Invite  Pro Music✨](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot) | [Support](https://discord.gg/ZQhTvGhaH8) | [Top.gg](coming soon)`)
+                        .setDescription(`.\n[Invite  Pro Music✨](https://discord.com/api/oauth2/authorize?client_id=894294802265411674&permissions=8&scope=bot) | [Support](https://discord.gg/ZQhTvGhaH8) | [Top.gg](https://discord.gg/gq8h4EGX)`)
                         .setImage('https://images-ext-2.discordapp.net/external/K3Jl1Ik8eX7APTB26bYmMIFHGExA7aEHuIvb1rH8y-g/https/media.discordapp.net/attachments/837692611590094868/889686815022403724/20210921_043700.jpg')
                         .setFooter("Prefix = setup 》help ")
 
